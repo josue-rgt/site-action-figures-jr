@@ -1,0 +1,434 @@
+@font-face {
+    font-family: 'AnimeAce';
+    src: url('font/animeace2_reg.ttf') format(truetype);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 9px;
+}
+
+header {
+    background-color: black;    
+    height: 117px;
+    padding: 22px;
+}
+
+header h1 {
+    font-family: 'AnimeAce', Arial, Helvetica, sans-serif;
+    font-size: 2.6em; 
+    font-weight: bold; 
+    color: white; 
+}
+
+header ul li {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom, #D43504, #FE6B0B);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+header li a {
+    font-family: 'AnimeAce', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header li:hover {
+    transform: scale(1.05);
+}
+
+#sobre {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+#sobre img {
+    width: 700px;
+}
+
+#sobre div {
+    margin: auto;
+    width: 30%;
+    height: 100%;
+}
+
+#sobre div p{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+    text-align: end;
+    padding: 15px;
+}
+
+.container h2 {
+    background-color: black;
+    font-family: 'AnimeAce', system-ui;
+    font-size: 2.3em;
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);   
+}
+
+.produtos {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 245px 245px 245px 245px;
+    padding: 10px;
+}
+
+.produtos h3 {
+    font-family: 'AnimeAce', Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    padding-top: 10px;
+}
+
+.produtos li {
+    height: 459px;
+    text-align: center;
+    color: white;
+    background-color: var(--);
+    margin: 10px;
+    padding: 8px;
+    padding-top: 10px;
+    list-style: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
+}
+
+.produtos li div {
+    margin: 10px;
+}
+
+.produtos li img {
+    width: 97%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.produtos li:hover {
+    transform: scale(1.05);
+}
+
+.produtos li button {
+    font-size: 1em;
+    margin: 15px;
+    padding: 12px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+
+#yu {
+    background-image: linear-gradient(to bottom, #9B2D6C, black);
+}
+
+#zoro {
+    background-image: linear-gradient(to bottom, #95D978, black);
+}
+
+#might {
+    background-image: linear-gradient(to bottom, #03543F, black);
+}
+
+#sumire {
+    background-image: linear-gradient(to bottom, #7562A1, black);
+}
+
+#sakura {
+    background-image: linear-gradient(to bottom, #E5AAB3, black);
+}
+
+#android {
+    background-image: linear-gradient(to bottom, #8AB917, black);
+}
+
+#shiryu {
+    background-image: linear-gradient(to bottom, #C7991C, black);
+}
+
+#todoroki {
+    background-image: linear-gradient(to bottom, #B7311F, black);
+}
+
+#goku {
+    background-image: linear-gradient(to bottom, #B77C89, black);
+}
+
+#kirichima {
+    background-image: linear-gradient(to bottom, #B92E3B, black);
+}
+
+#minato {
+    background-image: linear-gradient(to bottom, #F4D13C, black);
+}
+
+#tanjiro {
+    background-image: linear-gradient(to bottom, #50212A, black);
+}
+
+footer {
+    background-color: black;
+    height: 100px;
+
+}
+
+footer p{
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  
+    .container {
+        max-width: 90%;      
+    }
+
+    header .container {
+        display: block;
+        margin-top: 0;
+
+    }
+    
+    header {
+        background-color: black;    
+        height: 115x;
+    }
+    
+    header div {
+        text-align: center;    
+        align-items: center;
+    }
+    
+    header h1 {
+        font-family: 'AnimeAce', Arial, Helvetica, sans-serif;
+        font-size: 1.3em; 
+        font-weight: bold; 
+        color: white;
+    }
+    
+    header ul {
+        margin: 5px;
+        display: inline-block;
+    }
+    
+    header ul li {
+        font-weight: bold;
+        background-image: linear-gradient(to bottom, #D43504, #FE6B0B);
+        margin: 5px;
+        padding: 8px;
+        border-radius: 5px;
+    }
+    
+    header li a {
+        font-family: 'AnimeAce', Arial, Helvetica, sans-serif;
+        font-size: 0.7em;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    #sobre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25px;
+    }
+    
+    #sobre img {
+        width: 100%;
+    }
+    
+    #sobre div {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #sobre div p{
+        font-size: 0.9em;
+        font-weight: bold;
+        color: black;
+        text-align: justify;
+        padding: 15px;
+    }
+
+    main div p {
+        font-size: 1em;
+        text-align: justify;
+    }
+
+    .container h2 {        
+        font-size: 1.7em;
+        text-align: center;
+        margin: 15px 0;
+        padding: 15px;
+        border: 2px solid black;
+    }
+
+    .produtos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;        
+    }
+
+    .produtos h3 {
+        font-family: 'AnimeAce', Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        padding-top: 10px;
+    }
+    
+    .produtos li {
+        text-align: center;
+        width: 85%;
+        height: 490px;
+        margin: 10px;
+        padding-top: 10px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
+    }
+    
+    .produtos li div {
+        margin: 10px;
+    }
+    
+    .produtos li img {
+        width: 97%;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px black;
+    }
+   
+    .produtos li button {
+        font-size: 1em;
+        margin: 15px;
+        padding: 12px;
+        border-radius: 5px;
+        border-style: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px){
+
+    .container {
+        max-width: 90%;      
+    }
+
+    header .container {
+        display: block;
+        margin-top: 0;
+    }
+    
+    header {
+        background-color: black;    
+        height: 165px;
+    }
+    
+    header div {
+        text-align: center;    
+        align-items: center;
+    }
+    
+    header h1 {
+        font-family: 'AnimeAce', Arial, Helvetica, sans-serif;
+        font-size: 3em; 
+        font-weight: bold; 
+        color: white;
+    }
+    
+    header ul {
+        margin: 5px;
+    }
+
+    header ul li {
+        font-weight: bold;
+        background-image: linear-gradient(to bottom, #D43504, #FE6B0B);
+        margin: 5px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    header li a {
+        font-family: 'AnimeAce', Arial, Helvetica, sans-serif;
+        font-size: 1.4em;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    #sobre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #sobre img {
+        width: 100%;
+    }
+    
+    #sobre div {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #sobre div p{
+        font-size: 1.4em;
+        font-weight: bold;
+        color: black;
+        text-align: justify;
+        padding: 15px;
+    }
+
+    .container h2 {        
+        font-size: 1.7em;
+        text-align: center;
+        margin: 15px 0;
+        padding: 30px;
+        border: 2px solid black;
+    }
+
+    .produtos {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 330px 330px;
+    }
+    
+    .produtos li{
+        text-align: center;
+        color: white;
+        background-color: var(--);
+        height: 510px;
+        margin: 10px;
+        list-style: none;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
+        border: 2px solid red;
+    }
+
+    footer {
+        margin-top: 9px;
+    }
+}
